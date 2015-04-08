@@ -14,7 +14,7 @@ service_controller.declare_connection("videoInput", OutputMessageConnector(servi
 def update_all(root, cam, filters):
     read_successful, frame = cam.read() #odczyt obrazu z kamery
     new_filters = set()
-    if check1.get()==1: #sprawdzenie czy checkbox był zaznaczony
+    if check1.get() == 1:  #sprawdzenie czy checkbox był zaznaczony
         new_filters.add(1)
 
     if filters ^ new_filters:

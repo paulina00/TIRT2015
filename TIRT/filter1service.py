@@ -8,8 +8,13 @@ import cv2 #import modułu biblioteki OpenCV
 import numpy as np #import modułu biblioteki Numpy
 
 class Filter1Service(Service): #klasa usługi musi dziedziczyć po ComssServiceDevelopment.service.Service
+
+
+    faceCascade = cv2.CascadeClassifier("C:\opencv\opencv\sources\data\haarcascades\haarcascade_frontalface_default.xml")
+
     def __init__(self):			#"nie"konstruktor, inicjalizator obiektu usługi
         super(Filter1Service, self).__init__() #wywołanie metody inicjalizatora klasy nadrzędnej
+
         
         self.filters_lock = threading.RLock() #obiekt pozwalający na blokadę wątku
 
@@ -31,6 +36,18 @@ class Filter1Service(Service): #klasa usługi musi dziedziczyć po ComssServiceD
 
             if 1 in current_filters:    #sprawdzenie czy parametr "filtersOn" ma wartość 1, czyli czy ma być stosowany filtr
                 frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) #zastosowanie filtru COLOR_BGR2GRAY z biblioteki OpenCV na ramce wideo
+
+                # Detect faces in the image
+                faces = Filter1Service.faceCascade.detectMultiScale(
+                    frame,
+                    scaleFactor=1.1,
+                    minNeighbors=5,
+                    minSize=(30, 30),
+                    flags = cv2.cv.CV_HAAR_SCALE_IMAGE)
+
+                for (x, y, w, h) in faces:
+                    cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+
             video_output.send(frame.dumps()) #przesłanie ramki za pomocą interfejsu wyjściowego
 
 if __name__=="__main__":
