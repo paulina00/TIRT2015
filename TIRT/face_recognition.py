@@ -7,14 +7,12 @@ from ComssServiceDevelopment.service import Service, ServiceController #import m
 import cv2 #import modułu biblioteki OpenCV
 import numpy as np #import modułu biblioteki Numpy
 
-class Filter1Service(Service): #klasa usługi musi dziedziczyć po ComssServiceDevelopment.service.Service
-
-
+class FaceRecognitionService(Service): #klasa usługi musi dziedziczyć po ComssServiceDevelopment.service.Service
     def __init__(self):			#"nie"konstruktor, inicjalizator obiektu usługi
-        super(Filter1Service, self).__init__() #wywołanie metody inicjalizatora klasy nadrzędnej
+        super(FaceRecognitionService, self).__init__() #wywołanie metody inicjalizatora klasy nadrzędnej
 
-        
         self.filters_lock = threading.RLock() #obiekt pozwalający na blokadę wątku
+        self.faceCascade = cv2.CascadeClassifier("C:\Python27\packages\opencv\sources\data\haarcascades\haarcascade_frontalface_default.xml")
 
     def declare_outputs(self):	#deklaracja wyjść
         self.declare_output("videoOutput", OutputMessageConnector(self)) #deklaracja wyjścia "videoOutput" będącego interfejsem wyjściowym konektora msg_stream_connector
@@ -29,14 +27,21 @@ class Filter1Service(Service): #klasa usługi musi dziedziczyć po ComssServiceD
         while self.running():   #pętla główna usługi
             frame_obj = video_input.read()  #odebranie danych z interfejsu wejściowego
             frame = np.loads(frame_obj)     #załadowanie ramki do obiektu NumPy
-            with self.filters_lock:     #blokada wątku
-                current_filters = self.get_parameter("filtersOn") #pobranie wartości parametru "filtersOn"
+#            with self.filters_lock:     #blokada wątku
+#                current_filters = self.get_parameter("filtersOn") #pobranie wartości parametru "filtersOn"
 
-            if 1 in current_filters:    #sprawdzenie czy parametr "filtersOn" ma wartość 1, czyli czy ma być stosowany filtr
-                frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) #zastosowanie filtru COLOR_BGR2GRAY z biblioteki OpenCV na ramce wideo
+# Detect faces in the image
+            faces = self.faceCascade.detectMultiScale(
+                frame,
+                scaleFactor=1.2,
+                minNeighbors=5,
+                minSize=(30, 30),
+                flags = cv2.cv.CV_HAAR_SCALE_IMAGE)
 
+            for (x, y, w, h) in faces:
+                    cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
             video_output.send(frame.dumps()) #przesłanie ramki za pomocą interfejsu wyjściowego
 
 if __name__=="__main__":
-    sc = ServiceController(Filter1Service, "filter1service.json") #utworzenie obiektu kontrolera usługi
+    sc = ServiceController(FaceRecognitionService, "face_recognition.json") #utworzenie obiektu kontrolera usługi
     sc.start() #uruchomienie usługi

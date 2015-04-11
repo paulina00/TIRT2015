@@ -9,7 +9,7 @@ from ComssServiceDevelopment.development import DevServiceController #import mod
 import cv2 #import modułu biblioteki OpenCV
 import numpy as np #import modułu biblioteki Numpy
 
-service_controller = DevServiceController("filter1service.json") #utworzenie obiektu kontroletra testowego, jako parametr podany jest plik konfiguracji usługi, do której "zaślepka" jest dołączana
+service_controller = DevServiceController("face_recognition.json") #utworzenie obiektu kontroletra testowego, jako parametr podany jest plik konfiguracji usługi, do której "zaślepka" jest dołączana
 service_controller.declare_connection("videoOutput", InputMessageConnector(service_controller)) #deklaracja interfejsu wejściowego konektora msg_stream_connector, należy zwrócić uwagę, iż identyfikator musi być zgodny z WYJŚCIEM usługi, do której "zaślepka" jest podłączana
 
 
