@@ -11,31 +11,27 @@ service_controller = DevServiceController("filter1service.json") #utworzenie obi
 service_controller.declare_connection("videoInput", OutputMessageConnector(service_controller)) #deklaracja interfejsu wyjściowego konektora msg_stream_connector, należy zwrócić uwagę, iż identyfikator musi być zgodny z WEJŚCIEM usługi, do której "zaślepka" jest podłączana
 
 
-def update_all(root, cam, filters):
+def update_all(root, cam):
     read_successful, frame = cam.read() #odczyt obrazu z kamery
-    new_filters = set()
-    if check1.get() == 1:  #sprawdzenie czy checkbox był zaznaczony
-        new_filters.add(1)
-
-    if filters ^ new_filters:
-        filters.clear()
-        filters.update(new_filters)
-        service_controller.update_params({"filtersOn": list(filters)}) #zmiana wartości parametru "filtersOn" w zależności od checkbox'a
 
     frame_dump = frame.dumps() #zrzut ramki wideo do postaci ciągu bajtów
     service_controller.get_connection("videoInput").send(frame_dump) #wysłanie danych
     root.update()
-    root.after(20, func=lambda: update_all(root, cam, filters))
+    root.after(20, func=lambda: update_all(root, cam))
+
+
+def authorize():
+    service_controller.update_params({"authorizationOn": 1}) #zmiana wartości parametru "authorizationOn" jezeli przycisk byl kliniety
+
 
 root = tk.Tk()
-root.title("Filters") #utworzenie okienka
+root.title("Autoryzacja") #utworzenie okienka
 
 cam = cv2.VideoCapture(0) #"podłączenie" do strumienia wideo z kamerki
 
-#obsługa checkbox'a
-check1=tk.IntVar()
-checkbox1 = tk.Checkbutton(root, text="Filter 1", variable=check1)
-checkbox1.pack()
+#obsługa przycisku
+button = tk.Button(root, text="Autoryzuj", command=authorize)
+button.pack()
 
-root.after(0, func=lambda: update_all(root, cam, set())) #dołączenie metody update_all do głównej pętli programu, wynika ze specyfiki TKinter
+root.after(0, func=lambda: update_all(root, cam)) #dołączenie metody update_all do głównej pętli programu, wynika ze specyfiki TKinter
 root.mainloop()

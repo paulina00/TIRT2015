@@ -8,12 +8,16 @@
 "outputs": {
   "videoOutput": {
     "ip": "127.0.0.1",
-    "port": 10072
+    "port": 10071
+  },
+  "authorizationOnOutput":{
+    "ip": "127.0.0.1",
+    "port":10072
   }
 },
 
 
   "parameters": {
-    "filtersOn": []
+    "authorizationOn": 0
   }
 }

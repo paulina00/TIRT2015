@@ -2,13 +2,24 @@
 "inputs": {
   "videoInput": {
     "ip": "127.0.0.1",
-    "port": 10072
-  }
+    "port": 10071
+  },
+  "authorizationOnInput":{
+    "ip": "127.0.0.1",
+    "port": 10072}
 },
 "outputs": {
   "videoOutput": {
     "ip": "127.0.0.1",
+    "port": 10073
+  },
+  "authorizationOnOutput":{
+    "ip": "127.0.0.1",
     "port": 10074
+  },
+  "photosOutput":{
+    "ip": "127.0.0.1",
+    "port": 10075
   }
 },
 
