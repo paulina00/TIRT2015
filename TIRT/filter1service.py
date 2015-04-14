@@ -8,13 +8,12 @@ from ComssServiceDevelopment.service import Service, ServiceController #import m
 import cv2 #import modułu biblioteki OpenCV
 import numpy as np #import modułu biblioteki Numpy
 
-class Filter1Service(Service): #klasa usługi musi dziedziczyć po ComssServiceDevelopment.service.Service
 
+class Filter1Service(Service): #klasa usługi musi dziedziczyć po ComssServiceDevelopment.service.Service
 
     def __init__(self):			#"nie"konstruktor, inicjalizator obiektu usługi
         super(Filter1Service, self).__init__() #wywołanie metody inicjalizatora klasy nadrzędnej
 
-        
         self.filters_lock = threading.RLock() #obiekt pozwalający na blokadę wątku
 
     def declare_outputs(self):	#deklaracja wyjść

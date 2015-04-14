@@ -14,8 +14,9 @@ service_controller.declare_connection("videoInput", OutputMessageConnector(servi
 def update_all(root, cam):
     read_successful, frame = cam.read() #odczyt obrazu z kamery
 
-    frame_dump = frame.dumps() #zrzut ramki wideo do postaci ciągu bajtów
-    service_controller.get_connection("videoInput").send(frame_dump) #wysłanie danych
+    if (frame is not None):
+        frame_dump = frame.dumps() #zrzut ramki wideo do postaci ciągu bajtów
+        service_controller.get_connection("videoInput").send(frame_dump) #wysłanie danych
     root.update()
     root.after(20, func=lambda: update_all(root, cam))
 

@@ -1,28 +1,33 @@
-{"parametersHost": "localhost:11112",
+{"parametersHost": "localhost:11113",
 "inputs": {
   "videoInput": {
     "ip": "127.0.0.1",
-    "port": 10071
+    "port": 10073
   },
   "authorizationOnInput":{
     "ip": "127.0.0.1",
-    "port": 10072}
-},
-"outputs": {
-  "videoOutput": {
-    "ip": "127.0.0.1",
-    "port": 10073
-  },
-  "authorizationOnOutput":{
-    "ip": "127.0.0.1",
     "port": 10074
   },
-  "photosOutput":{
+  "photosInput":{
     "ip": "127.0.0.1",
     "port": 10075
   }
 },
+"outputs": {
+  "videoOutput": {
+    "ip": "127.0.0.1",
+    "port": 10076
+  },
+  "authorizationOnOutput":{
+    "ip": "127.0.0.1",
+    "port": 10077
+  },
+  "photosOutput":{
+    "ip": "127.0.0.1",
+    "port": 10078
+  }
 
+},
 
   "parameters": {
     "photosCount": 10

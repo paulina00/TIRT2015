@@ -7,18 +7,14 @@ from ComssServiceDevelopment.connectors.tcp.object_connector import InputObjectC
 from ComssServiceDevelopment.service import Service, ServiceController #import modułów klasy bazowej Service oraz kontrolera usługi
 import cv2 #import modułu biblioteki OpenCV
 import numpy as np #import modułu biblioteki Numpy
-import time
 
-class FaceRecognitionService(Service): #klasa usługi musi dziedziczyć po ComssServiceDevelopment.service.Service
+class FaceComparatorService(Service): #klasa usługi musi dziedziczyć po ComssServiceDevelopment.service.Service
     def __init__(self):			#"nie"konstruktor, inicjalizator obiektu usługi
-        super(FaceRecognitionService, self).__init__() #wywołanie metody inicjalizatora klasy nadrzędnej
+        super(FaceComparatorService, self).__init__() #wywołanie metody inicjalizatora klasy nadrzędnej
 
         self.photos_lock = threading.RLock() #obiekt pozwalający na blokadę wątku
-        self.photos_detected = 0
         self.photos_count = 0
-        self.face = None
-        self.frame = None
-        self.faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+        self.photos = []
         self.authorization = 0
 
     def declare_outputs(self):	#deklaracja wyjść
@@ -29,19 +25,17 @@ class FaceRecognitionService(Service): #klasa usługi musi dziedziczyć po Comss
     def declare_inputs(self): #deklaracja wejść
         self.declare_input("videoInput", InputMessageConnector(self)) #deklaracja wejścia "videoInput" będącego interfejsem wyjściowym konektora msg_stream_connector
         self.declare_input("authorizationOnInput", InputObjectConnector(self))
+        self.declare_input("photosInput", InputMessageConnector(self))
 
     def watch_photos(self): #metoda obsługująca strumień sterujacy parametrem usługi
+        photos_input = self.get_input("photosInput") #obiekt interfejsu wejściowego
         photos_output = self.get_output("photosOutput")
         while self.running(): #główna pętla wątku obsługującego strumień sterujący
-            with self.photos_lock:  #blokada wątku
-                self.photos_count = self.get_parameter("photosCount") #pobranie wartości parametru "photosCount"
-            if self.face is not None and self.frame is not None and self.authorization == 1 and self.photos_detected < self.photos_count:
-                (x, y, w, h) = self.face
-                photos_output.send(self.frame[y:y+h, x:x+w].dumps())
-#                cv2.imshow("photo", self.frame[y:y+h, x:x+w])
-#                cv2.waitKey(1)
-                self.photos_detected += 1
-                time.sleep(2)
+            photo = np.loads(photos_input.read())
+            self.photos_count = self.get_parameter("photosCount") #pobranie wartości parametru "photosCount"
+            if len(self.photos) < self.photos_count:
+                self.photos.append(photo)
+#                photos_output.send(photo.dumps())
 
     def run(self):	#główna metoda usługi
         threading.Thread(target=self.watch_photos).start() #uruchomienie wątku obsługującego strumień sterujący
@@ -53,28 +47,12 @@ class FaceRecognitionService(Service): #klasa usługi musi dziedziczyć po Comss
 
         while self.running():   #pętla główna usługi
             frame_obj = video_input.read()  #odebranie danych z interfejsu wejściowego
-            self.frame = np.loads(frame_obj)     #załadowanie ramki do obiektu NumPy
+            frame = np.loads(frame_obj)     #załadowanie ramki do obiektu NumPy
             self.authorization = authorization_input.read()
 
-            if self.authorization == 1:
-# Detect faces in the image
-                faces = self.faceCascade.detectMultiScale(
-                    self.frame,
-                    scaleFactor=1.2,
-                    minNeighbors=5,
-                    minSize=(100, 100),
-                    flags = cv2.cv.CV_HAAR_SCALE_IMAGE)
-
-                if len(faces) > 0:
-                    self.face = faces[0]
-                    (x, y, w, h) = self.face
-                    cv2.rectangle(self.frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
-                else:
-                    self.face = None
-
-            video_output.send(self.frame.dumps()) #przesłanie ramki za pomocą interfejsu wyjściowego
+            video_output.send(frame.dumps()) #przesłanie ramki za pomocą interfejsu wyjściowego
             authorization_output.send(self.authorization)
 
 if __name__=="__main__":
-    sc = ServiceController(FaceRecognitionService, "face_recognition.json") #utworzenie obiektu kontrolera usługi
+    sc = ServiceController(FaceComparatorService, "face_comparator_service.json") #utworzenie obiektu kontrolera usługi
     sc.start() #uruchomienie usługi
