@@ -7,6 +7,7 @@ from ComssServiceDevelopment.connectors.tcp.object_connector import InputObjectC
 from ComssServiceDevelopment.service import Service, ServiceController #import modułów klasy bazowej Service oraz kontrolera usługi
 import cv2 #import modułu biblioteki OpenCV
 import numpy as np #import modułu biblioteki Numpy
+from recognize import recognize
 
 class FaceComparatorService(Service): #klasa usługi musi dziedziczyć po ComssServiceDevelopment.service.Service
     def __init__(self):			#"nie"konstruktor, inicjalizator obiektu usługi
@@ -35,6 +36,7 @@ class FaceComparatorService(Service): #klasa usługi musi dziedziczyć po ComssS
             self.photos_count = self.get_parameter("photosCount") #pobranie wartości parametru "photosCount"
             if len(self.photos) < self.photos_count:
                 self.photos.append(photo)
+                recognize(photo, "eigenModel.xml", 4000)
 #                photos_output.send(photo.dumps())
 
     def run(self):	#główna metoda usługi
