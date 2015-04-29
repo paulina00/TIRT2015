@@ -39,7 +39,7 @@ if __name__ == "__main__":
     model.load("eigenModel.xml")
 
     # Read the image we're looking for
-    sampleImage = cv2.imread("sampleaga.jpg", cv2.IMREAD_GRAYSCALE)
+    sampleImage = cv2.imread("Paulina3.png", cv2.IMREAD_GRAYSCALE)
     sampleImage = cv2.resize(sampleImage, (256,256))
 
     # Look through the model and find the face it matches
