@@ -22,10 +22,13 @@
     "ip": "127.0.0.1",
     "port": 10077
   },
-  "photosOutput":{
+  "userOutput":{
     "ip": "127.0.0.1",
     "port": 10078
-  }
+  },
+    "photosRecognizedOutput":{
+    "ip": "127.0.0.1",
+    "port": 10080}
 
 },
 

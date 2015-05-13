@@ -5,6 +5,7 @@ import numpy as np
 
 THRESHOLD = 12000.0;
 
+
 def recognize(image, model_path, confidence):
     model = cv2.createEigenFaceRecognizer(threshold=THRESHOLD)
     model.load(model_path)
@@ -16,7 +17,7 @@ def recognize(image, model_path, confidence):
     path = os.path.join(os.path.dirname(__file__), 'faces')
     subject = "";
     # If the model found something, print the file path
-    if (p_label > -1):
+    if p_label > -1:
         count = 0
         for dirname, dirnames, filenames in os.walk(path):
             for subdirname in dirnames:
@@ -27,9 +28,11 @@ def recognize(image, model_path, confidence):
 
                 count = count+1
     if (p_confidence < confidence):
-        print "hello %s" %subject;
+        print "hello %s" %subject
     else:
-        print "not authorized";
+        print "not authorized"
+        p_label = -1
+    return p_label, p_confidence, subject
 
 #https://shkspr.mobi/blog/2014/06/which-painting-do-you-look-like-comparing-faces-using-python-and-opencv/
 if __name__ == "__main__":

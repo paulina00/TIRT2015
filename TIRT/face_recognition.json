@@ -6,7 +6,11 @@
   },
   "authorizationOnInput":{
     "ip": "127.0.0.1",
-    "port": 10072}
+    "port": 10072},
+
+  "photosRecognizedInput":{
+    "ip": "127.0.0.1",
+    "port": 10080}
 },
 "outputs": {
   "videoOutput": {

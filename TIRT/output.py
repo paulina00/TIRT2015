@@ -13,10 +13,18 @@ import numpy as np #import modułu biblioteki Numpy
 service_controller = DevServiceController("face_comparator_service.json") #utworzenie obiektu kontroletra testowego, jako parametr podany jest plik konfiguracji usługi, do której "zaślepka" jest dołączana
 service_controller.declare_connection("videoOutput", InputMessageConnector(service_controller)) #deklaracja interfejsu wejściowego konektora msg_stream_connector, należy zwrócić uwagę, iż identyfikator musi być zgodny z WYJŚCIEM usługi, do której "zaślepka" jest podłączana
 service_controller.declare_connection("authorizationOnOutput", InputObjectConnector(service_controller))
-service_controller.declare_connection("photosOutput", InputMessageConnector(service_controller))
+service_controller.declare_connection("userOutput", InputMessageConnector(service_controller))
 
 connection = service_controller.get_connection("videoOutput") #utworzenie połączenia wejściwoego należy zwrócić uwagę, iż identyfikator musi być zgodny z WYJŚCIEM usługi, do której "zaślepka" jest podłączana
-connection_photos = service_controller.get_connection("photosOutput")
+connection_user = service_controller.get_connection("userOutput")
+
+
+def watch_user():
+    user = connection_user.read()
+    print user
+
+threading.Thread(target=watch_user).start()
+
 while True: #główna pętla programu
     obj = connection.read() #odczyt danych z interfejsu wejściowego
     frame = np.loads(obj) #załadownaie ramki do obiektu NumPy

@@ -2,56 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c226b175-e22d-4687-b5da-15e8e4700cb3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina0 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina1 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina12 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina13 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina16 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina17 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina18 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina19 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina2 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina20 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina21 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina22 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina23 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina25 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina26 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina28 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina29 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina3 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina30 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina31 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina33 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina34 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina35 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina6 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faces/paulina/Paulina7 (2).png" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\eigenModel.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina10.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina11.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina12.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina13.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina14.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina15.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina6.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina7.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina8.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Paulina\Documents\GitHub\TIRT2015\TIRT\faces\paulina\Paulina9.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/face_comparator_service.json" afterPath="$PROJECT_DIR$/face_comparator_service.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/face_comparator_service.py" afterPath="$PROJECT_DIR$/face_comparator_service.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/face_recognition.json" afterPath="$PROJECT_DIR$/face_recognition.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/face_recognition.py" afterPath="$PROJECT_DIR$/face_recognition.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.py" afterPath="$PROJECT_DIR$/output.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recognize.py" afterPath="$PROJECT_DIR$/recognize.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -80,8 +35,28 @@
       <file leaf-file-name="input.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5027027" vertical-offset="35" max-vertical-offset="646">
-              <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+            <state vertical-scroll-proportion="0.5236427" vertical-offset="75" max-vertical-offset="646">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="face_comparator_service.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/face_comparator_service.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.038462" vertical-offset="173" max-vertical-offset="731">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="face_recognition.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/face_recognition.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="51" max-vertical-offset="663">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -90,8 +65,8 @@
       <file leaf-file-name="filter1service.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filter1service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="765">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,8 +75,8 @@
       <file leaf-file-name="face_recognition.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/face_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1462">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="514" max-vertical-offset="1666">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding>
                 <element signature="e#46#62#0" expanded="true" />
               </folding>
@@ -112,8 +87,8 @@
       <file leaf-file-name="face_comparator_service.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/face_comparator_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1122">
-              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1411">
+              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
               <folding>
                 <element signature="e#46#62#0" expanded="true" />
               </folding>
@@ -124,8 +99,8 @@
       <file leaf-file-name="output.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -140,15 +115,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/filter1service.json" />
+        <option value="$PROJECT_DIR$/input.py" />
+        <option value="$PROJECT_DIR$/faces_model.py" />
         <option value="$PROJECT_DIR$/face_recognition.json" />
-        <option value="$PROJECT_DIR$/filter1service.py" />
+        <option value="$PROJECT_DIR$/recognize.py" />
         <option value="$PROJECT_DIR$/face_comparator_service.json" />
         <option value="$PROJECT_DIR$/output.py" />
-        <option value="$PROJECT_DIR$/input.py" />
-        <option value="$PROJECT_DIR$/face_recognition.py" />
+        <option value="$PROJECT_DIR$/filter1service.py" />
         <option value="$PROJECT_DIR$/face_comparator_service.py" />
-        <option value="$PROJECT_DIR$/faces_model.py" />
-        <option value="$PROJECT_DIR$/recognize.py" />
+        <option value="$PROJECT_DIR$/face_recognition.py" />
       </list>
     </option>
   </component>
@@ -199,20 +174,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TIRT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TIRT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -241,25 +202,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.input">
-    <configuration default="false" name="output" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TIRT" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/output.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="face_comparator_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,6 +272,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TIRT" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="output" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TIRT" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/output.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -459,11 +420,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.output" />
-      <item index="1" class="java.lang.String" itemvalue="Python.face_comparator_service" />
-      <item index="2" class="java.lang.String" itemvalue="Python.face_recognition" />
-      <item index="3" class="java.lang.String" itemvalue="Python.filter1service" />
-      <item index="4" class="java.lang.String" itemvalue="Python.input" />
+      <item index="0" class="java.lang.String" itemvalue="Python.face_comparator_service" />
+      <item index="1" class="java.lang.String" itemvalue="Python.face_recognition" />
+      <item index="2" class="java.lang.String" itemvalue="Python.filter1service" />
+      <item index="3" class="java.lang.String" itemvalue="Python.input" />
+      <item index="4" class="java.lang.String" itemvalue="Python.output" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -516,7 +477,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429724830153</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zdjecia">
+      <created>1430339920548</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1430339920548</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -549,8 +516,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19934641" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -564,6 +531,28 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19934641" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16741072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -585,13 +574,66 @@
     <MESSAGE value="nowe wejscia i wyjscia + dodanie xmla do projektu" />
     <MESSAGE value="przesylanie zdjec twarzy zrobionych w odstepie czasowym do uslugi porownujacej twarze" />
     <MESSAGE value="sprawdzanie zdjec z kamerki + zdjecia Paulina" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprawdzanie zdjec z kamerki + zdjecia Paulina" />
+    <MESSAGE value="zdjecia" />
+    <option name="LAST_COMMIT_MESSAGE" value="zdjecia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/face_comparator_service.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="244" max-vertical-offset="731">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter1service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="765">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1581">
+          <caret line="47" column="73" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
+          <folding>
+            <element signature="e#46#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_recognition.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="663">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_comparator_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1190">
+          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+          <folding>
+            <element signature="e#46#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="357">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="782">
@@ -792,61 +834,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter1service.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="476">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607206">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/face_comparator_service.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7258065" vertical-offset="37" max-vertical-offset="680">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/face_recognition.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143" vertical-offset="0" max-vertical-offset="595">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samplenotaga.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/agnieszka/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/agnieszka/3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/agnieszka/4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/agnieszka/5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/agnieszka/6.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -856,70 +851,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faces/agnieszka/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faces_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1139">
           <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-          <folding>
-            <element signature="e#25#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Paulina3.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recognize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="601" max-vertical-offset="1258">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-          <folding>
-            <element signature="e#25#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/face_comparator_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1122">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-          <folding>
-            <element signature="e#46#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/face_recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1462">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#46#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter1service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faces/paulina/Paulina3 (2).png">
@@ -947,10 +888,78 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/filter1service.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="476">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_recognition.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="51" max-vertical-offset="663">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recognize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1275">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_comparator_service.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.038462" vertical-offset="173" max-vertical-offset="731">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_comparator_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1411">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <element signature="e#46#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="514" max-vertical-offset="1666">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="e#46#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter1service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="765">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5027027" vertical-offset="35" max-vertical-offset="646">
-          <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.5236427" vertical-offset="75" max-vertical-offset="646">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>
