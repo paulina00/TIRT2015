@@ -46,7 +46,7 @@ class FaceComparatorService(Service): #klasa usługi musi dziedziczyć po ComssS
             if len(self.photos) < self.photos_count:
                 photo = np.loads(photos_input.read())
                 label,confidence, name = recognize(photo, "eigenModel.xml", 12000)
-                self.photos.append(label)
+                self.photos.append(name)
                 print "send output with count", str(len(self.photos)), "label: ", str(label), "confidence: ", str(confidence)
                 photos_recognized_output.send(len(self.photos))
 #                photos_output.send(photo.dumps())
@@ -55,7 +55,10 @@ class FaceComparatorService(Service): #klasa usługi musi dziedziczyć po ComssS
                 most_common = [el for el, count in counter.most_common(1)][0]
                 ratio = self.photos.count(most_common)/self.photos_count;
                 if ratio > 0.6:
-                    user_output.send(name)
+                    print ("sending " + most_common)
+                    user_output.send(most_common)
+                else:
+                    user_output.send("UNKNOWN")
 
             print str(len(self.photos)), str(self.photos_count)
 

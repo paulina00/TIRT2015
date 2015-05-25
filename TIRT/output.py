@@ -21,7 +21,13 @@ connection_user = service_controller.get_connection("userOutput")
 
 def watch_user():
     user = connection_user.read()
-    print user
+
+    if user != "UNKNOWN":
+        print "TOP SECRET data granted for " + user
+    else:
+        print "UNAUTHORIZED ACCESS"
+
+
 
 threading.Thread(target=watch_user).start()
 

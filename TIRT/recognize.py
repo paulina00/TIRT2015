@@ -3,7 +3,7 @@ import os
 import cv2
 import numpy as np
 
-THRESHOLD = 12000.0;
+THRESHOLD = 10000.0;
 
 
 def recognize(image, model_path, confidence):
@@ -15,7 +15,7 @@ def recognize(image, model_path, confidence):
     print "Predicted label = %d (confidence=%.2f)" % (p_label, p_confidence)
 
     path = os.path.join(os.path.dirname(__file__), 'faces')
-    subject = "";
+    subject = "UNKNOWN";
     # If the model found something, print the file path
     if p_label > -1:
         count = 0
