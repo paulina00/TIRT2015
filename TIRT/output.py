@@ -9,6 +9,9 @@ from ComssServiceDevelopment.connectors.tcp.object_connector import InputObjectC
 from ComssServiceDevelopment.development import DevServiceController #import modułu klasy testowego kontrolera usługi
 import cv2 #import modułu biblioteki OpenCV
 import numpy as np #import modułu biblioteki Numpy
+import Tkinter
+import tkMessageBox
+
 
 service_controller = DevServiceController("face_comparator_service.json") #utworzenie obiektu kontroletra testowego, jako parametr podany jest plik konfiguracji usługi, do której "zaślepka" jest dołączana
 service_controller.declare_connection("videoOutput", InputMessageConnector(service_controller)) #deklaracja interfejsu wejściowego konektora msg_stream_connector, należy zwrócić uwagę, iż identyfikator musi być zgodny z WYJŚCIEM usługi, do której "zaślepka" jest podłączana
@@ -23,13 +26,16 @@ def watch_user():
     user = connection_user.read()
 
     if user != "UNKNOWN":
-        print "TOP SECRET data granted for " + user
+        tkMessageBox.showinfo("Hello", "Hello" + user + "!")
     else:
-        print "UNAUTHORIZED ACCESS"
+        tkMessageBox.showerror("Error", "UNAUTHORIZED ACCESS!")
 
 
 
 threading.Thread(target=watch_user).start()
+
+root = Tkinter.Tk()
+root.withdraw()
 
 while True: #główna pętla programu
     obj = connection.read() #odczyt danych z interfejsu wejściowego
